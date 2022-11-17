@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191919;
+  font-family: "Syncopate", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 500;
+  background: #191919;
+  position: fixed;
+  width: 100%;
+  min-height: 60px;
+  border-bottom: 1px solid #fff;
+}
+
+.logoText {
+  font-family: "Syncopate", sans-serif;
+  font-size: 3vh;
+  display: inline-flex;
+  padding: 10px;
+}
+.logoText a {
+  text-decoration: none;
+  color: #fff;
+}
+.logoText a:hover {
+  color: #fff;
+}
+
+.navbar {
+  padding: 20px;
+  display: inline-block;
+  margin: auto 0 auto auto;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #6f65ff;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 3px;
+  margin-left: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.topBlock {
+  height: 600px;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewport-header h1 {
+  z-index: 2;
+  font-family: "Syncopate", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3vw;
+  line-height: 1.2;
+  font-size: 3vw;
+  text-align: center;
+}
+.viewport-header h1 span {
+  display: block;
+  font-size: 10vw;
+  letter-spacing: 1vw;
+}
+
+video {
+  z-index: -100;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  background-color: #191919;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  margin: auto;
+  border-top: 1px solid #fff;
+}
+
+.secondBlock {
+  z-index: 600;
+  width: 100%;
+  background-color: #191919;
+  max-width: 1200px;
+  margin: auto;
+}
+.secondBlock .flexbox {
+  z-index: 550;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #191919;
+}
+.secondBlock .flexbox .flexboxItemSmall {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 220px;
+  max-width: 300px;
+  width: 30%;
+  height: 220px;
+  background-color: #191919;
+}
+.secondBlock .flexbox .flexboxItemSmall h1 {
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4vw;
+  font-size: 3vh;
+}
+.secondBlock .flexbox .flexboxItemSmall p {
+  text-align: center;
+  margin: auto;
+}
+.secondBlock .flexbox .flexboxItemHalf {
+  width: 45%;
+  height: 300px;
+  margin: auto;
+}
+.secondBlock .flexbox h1 {
+  padding-bottom: 4vw;
+}
+.secondBlock .flexbox img {
+  display: inline-block;
+  width: 75%;
+  height: auto;
+}
+.secondBlock .flexbox ul, .secondBlock .flexbox li {
+  list-style: none;
+  padding-bottom: 2vw;
+}
+
+.thirdBlock {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 7vw;
+}
+.thirdBlock h1 {
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.6vw;
+  font-size: 4vh;
+  padding-bottom: 1vw;
+}
+.thirdBlock h2 {
+  font-family: "Syncopate", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.6vw;
+  font-size: 2.5vh;
+  padding-bottom: 1vw;
+}
+.thirdBlock p {
+  text-align: center;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  max-width: 900px;
+  margin: auto;
+}
+.thirdBlock h3 {
+  padding-bottom: 2vw;
+}
+.thirdBlock h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+.thirdBlock a:hover {
+  color: #6f65ff;
+}
+
+footer {
+  z-index: 400;
+  background-color: #191919;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  color: #6f65ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
