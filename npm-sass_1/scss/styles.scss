@@ -25,6 +25,14 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: $white;
+    &:hover {
+        color: $hover;
+    }
+}
+
 //Header
 
 header {
@@ -46,13 +54,6 @@ header {
     font-size: 3vh;
     display: inline-flex;
     padding: 10px;
-    a {
-        text-decoration: none;
-        color: $white;
-    }
-    a:hover {
-        color: $white;
-    }
 }
 
 //Navigation
@@ -61,13 +62,6 @@ header {
     padding: 20px;
     display: inline-block;
     margin: auto 0 auto auto;
-    a {
-        text-decoration: none;
-        color: $white;
-    }
-    a:hover {
-        color: $hover;
-    }
 }
 
 //Icon
@@ -224,13 +218,6 @@ video {
     h3 {
         padding-bottom: 2vw;
     }
-    h3 a {
-        text-decoration: none;
-        color: $white;
-    }
-    a:hover {
-        color: $hover;
-    }
 }
 
 
@@ -245,13 +232,6 @@ footer {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    a {
-        text-decoration: none;
-        color: $white;
-    }
-    a:hover {
-        color: $hover;
-    }
 }
 
 
