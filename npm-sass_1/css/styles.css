@@ -215,4 +215,29 @@ footer a:hover {
   color: #6f65ff;
 }
 
+@media only screen and (max-width: 992px) {
+  .thirdBlock {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .secondBlock .flexbox {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .secondBlock .flexbox .flexboxItemSmall {
+    margin: auto;
+    padding-bottom: 10vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logoText h2 {
+    font-size: 1.2em;
+  }
+  .navbar a {
+    font-size: 0.9em;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -259,14 +259,55 @@ footer {
 
 //Responsive
 
+// -> Tablet wide
+
+@media only screen and (max-width: 992px) {
+
+//ThirdBlock
+.thirdBlock {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+}
+
+
 // -> Tablet
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 768px) {
 
+//SecondBlock
+.secondBlock{
+    .flexbox {
+        flex-direction: column;
+        justify-content: center;
+        .flexboxItemSmall {
+            margin: auto;
+            padding-bottom: 10vw;
+        }
+    }
+}
+    
+    
 }
 
 // -> Phone
 
 @media only screen and (max-width: 600px) {
-    
+
+//Logo
+.logoText {
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+//Navigation
+.navbar {
+    a {
+        font-size: 0.9em;
+    }
+}
+
 }
