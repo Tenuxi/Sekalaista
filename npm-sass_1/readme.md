@@ -1,4 +1,4 @@
-![npm-sass_1 screenshot](https://github.com/Tenuxi/Sekalaista/tree/master/img/npm-sass_1.png "npm-sass_1 screenshot")
+![npm-sass_1 screenshot](https://github.com/Tenuxi/Sekalaista/blob/master/img/npm-sass_1.png "npm-sass_1 screenshot")
 
 npm run
 
